@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: "Anek Bangla", sans-serif;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+  background-image: url("images/tajbih.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+#tajbih{
+    margin-bottom: 0;
+    color: white;
+}
+#count-el{
+    color: white;
+}
+#total-el{
+    color: white;
+}
+#totka{
+    background-color: rgb(190, 157, 115);
+    border: 0px solid #344b41;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 30px;
+}
+#prev{
+    color: white;
+}
+#increment-el{
+    margin-top: 10px;
+    background-color:rgb(125, 48, 48);
+    color: white;
+    border: 0px solid brown;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 30px;
+    font-family: "Anek Bangla", sans-serif;
+}
+#save-el{
+    margin-top: 20px;
+    background-color:#344b41;
+    color: white;
+    border: 0px solid #344b41;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 30px;
+    font-family: "Anek Bangla", sans-serif;
+}
